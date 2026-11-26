@@ -1,0 +1,23 @@
+emp_id,employee_name,role,job_id,cost_code,status,base_rate,st_hrs,ot_hrs,total_week_hrs,gross_wages,burdened_cost_1_28x
+E-01,James M. Doyle,Field Superintendent,JOB-101,01-100 Supervision,ON_SITE,46.00,40.00,0.00,40.00,1840.00,2355.20
+E-02,Mike Kowalski,Lead Framing Foreman,JOB-101,06-110 Walls,ON_SITE,38.00,39.00,0.00,39.00,1482.00,1896.96
+E-03,Carlos Mendez,Commercial Foreman,JOB-102,08-500 Windows,ON_SITE,40.00,40.00,1.50,41.50,1690.00,2163.20
+E-04,Tyler Bergstrom,Journeyman Framer,JOB-101,06-110 Walls,ON_SITE,33.00,38.00,0.00,38.00,1254.00,1605.12
+E-05,Nate Olson,Journeyman Framer,JOB-101,06-110 Walls,ON_SITE,33.00,36.50,0.00,36.50,1204.50,1541.76
+E-06,Brandon Schulz,Journeyman Framer,JOB-101,06-110 Walls,ON_SITE,32.00,36.50,0.00,36.50,1168.00,1495.04
+E-07,Travis Novak,Solo Wall & Layout Spec.,JOB-101,06-110 Walls,ON_SITE,35.00,38.50,0.00,38.50,1347.50,1724.80
+E-08,Gavin Krueger,Cut Bench & Stair Spec.,JOB-101,06-120 Stairs/Cut,ON_SITE,34.50,38.00,0.00,38.00,1311.00,1678.08
+E-09,Brett Zimmermann,SkyTrak / Rigging Op.,JOB-101,01-500 Staging,ON_SITE,34.00,40.00,0.50,40.50,1385.50,1773.44
+E-10,Cole Sorensen,2nd-Yr Apprentice,JOB-101,06-110 Walls,ON_SITE,24.00,35.50,0.00,35.50,852.00,1090.56
+E-11,Ethan Miller,1st-Yr Apprentice,JOB-101,06-120 Stairs/Cut,LATE,21.50,34.00,0.00,34.00,731.00,935.68
+E-12,Jordan Perez,Yard & Material Runner,JOB-101,01-500 Staging,ON_SITE,22.00,36.50,0.00,36.50,803.00,1027.84
+E-13,Marcus Jenkins,Journeyman Carpenter,JOB-102,08-500 Windows,ON_SITE,36.00,40.00,0.50,40.50,1467.00,1877.76
+E-14,Kyle Peterson,Journeyman Carpenter,JOB-102,08-500 Windows,ON_SITE,35.00,39.00,0.00,39.00,1365.00,1747.20
+E-15,Samir Patel,Caulk & Envelope Tech,JOB-102,08-510 Envelope,ON_SITE,31.00,37.50,0.00,37.50,1162.50,1488.00
+E-16,Devon Brooks,Warehouse / Forklift Op.,JOB-102,01-500 Staging,ON_SITE,30.00,38.50,0.00,38.50,1155.00,1478.40
+E-17,Lucas Meyer,Apprentice Carpenter,JOB-102,08-510 Envelope,ON_SITE,24.50,35.50,0.00,35.50,869.75,1113.28
+E-18,Noah Gallagher,Apprentice Carpenter,JOB-102,08-500 Windows,OUT,23.00,24.00,0.00,24.00,552.00,706.56
+E-19,Derek Halvorsen,Lead Carpenter,JOB-103,06-110 Walls,ON_SITE,36.50,38.50,0.00,38.50,1405.25,1798.72
+E-20,Austin Bauer,Journeyman Framer,JOB-103,06-110 Walls,ON_SITE,31.50,37.50,0.00,37.50,1181.25,1512.00
+E-21,Caleb Larson,Apprentice Framer,JOB-103,06-110 Walls,ON_SITE,23.50,36.00,0.00,36.00,846.00,1082.88
+E-22,Owen Lindstrom,Material Runner / Driver,JOB-103,01-500 Staging,REASSIGNED,22.50,37.50,0.00,37.50,843.75,1080.00
