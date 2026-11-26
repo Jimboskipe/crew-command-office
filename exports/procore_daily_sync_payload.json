@@ -1,0 +1,395 @@
+{
+  "integration": "Procore REST API v1.0 (Dry-Run Sync Package)",
+  "auth_mode": "OAuth 2.0 Client Credentials / User Token (configured via local .env, never committed)",
+  "sync_date": "2026-11-26",
+  "summary": {
+    "manpower_logs_count": 3,
+    "timecard_entries_count": 21,
+    "delay_logs_count": 2
+  },
+  "manpower_logs": [
+    {
+      "endpoint": "POST /rest/v1.0/projects/500101/manpower_logs",
+      "job_id": "JOB-101",
+      "payload": {
+        "manpower_log": {
+          "date": "2026-11-26",
+          "num_workers": 11,
+          "num_hours": 95.5,
+          "notes": "Mike Kowalski (Lead Foreman) \u2014 Day 2 Goal (Computed from Day 1 Baseline): 2-Man Team frames & bottom-up Tyveks W-2 & W-3; Solo Framer builds W-6 Garage Portal & W-7 Hall Wall; Full Crew hand-lifts exterior walls & sets reverse-staged (LIFO) floor/roof packs."
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500102/manpower_logs",
+      "job_id": "JOB-102",
+      "payload": {
+        "manpower_log": {
+          "date": "2026-11-26",
+          "num_workers": 6,
+          "num_hours": 53.5,
+          "notes": "Carlos Mendez (Commercial Foreman) \u2014 Floor 7 active set/caulk; Floors 9-15 staged in Room A."
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500103/manpower_logs",
+      "job_id": "JOB-103",
+      "payload": {
+        "manpower_log": {
+          "date": "2026-11-26",
+          "num_workers": 4,
+          "num_hours": 34.0,
+          "notes": "Derek Halvorsen (Lead Carpenter) \u2014 Hold on ridge LVL beam delivery (ETA Fri 07:30 AM) \u2014 crew shifted to interior partition prep."
+        }
+      }
+    }
+  ],
+  "timecard_entries": [
+    {
+      "endpoint": "POST /rest/v1.0/projects/500101/timecard_entries",
+      "job_id": "JOB-101",
+      "emp_id": "E-01",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 9.0,
+          "billable": true,
+          "description": "James M. Doyle (Field Superintendent) | Pod: Command / All Sites | Cost Code: 01-100 Supervision",
+          "cost_code_label": "01-100 Supervision",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500101/timecard_entries",
+      "job_id": "JOB-101",
+      "emp_id": "E-02",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 9.0,
+          "billable": true,
+          "description": "Mike Kowalski (Lead Framing Foreman) | Pod: Pod A (2-Man Walls) | Cost Code: 06-110 Walls",
+          "cost_code_label": "06-110 Walls",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500102/timecard_entries",
+      "job_id": "JOB-102",
+      "emp_id": "E-03",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 9.5,
+          "billable": true,
+          "description": "Carlos Mendez (Commercial Foreman) | Pod: Window Set & QC | Cost Code: 08-500 Windows",
+          "cost_code_label": "08-500 Windows",
+          "timecard_type": "Overtime"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500101/timecard_entries",
+      "job_id": "JOB-101",
+      "emp_id": "E-04",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 9.0,
+          "billable": true,
+          "description": "Tyler Bergstrom (Journeyman Framer) | Pod: Pod A (2-Man Walls) | Cost Code: 06-110 Walls",
+          "cost_code_label": "06-110 Walls",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500101/timecard_entries",
+      "job_id": "JOB-101",
+      "emp_id": "E-05",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 8.5,
+          "billable": true,
+          "description": "Nate Olson (Journeyman Framer) | Pod: Pod B (2-Man Walls) | Cost Code: 06-110 Walls",
+          "cost_code_label": "06-110 Walls",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500101/timecard_entries",
+      "job_id": "JOB-101",
+      "emp_id": "E-06",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 8.5,
+          "billable": true,
+          "description": "Brandon Schulz (Journeyman Framer) | Pod: Pod B (2-Man Walls) | Cost Code: 06-110 Walls",
+          "cost_code_label": "06-110 Walls",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500101/timecard_entries",
+      "job_id": "JOB-101",
+      "emp_id": "E-07",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 8.5,
+          "billable": true,
+          "description": "Travis Novak (Solo Wall & Layout Spec.) | Pod: Pod C (1-Man Solo) | Cost Code: 06-110 Walls",
+          "cost_code_label": "06-110 Walls",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500101/timecard_entries",
+      "job_id": "JOB-101",
+      "emp_id": "E-08",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 8.5,
+          "billable": true,
+          "description": "Gavin Krueger (Cut Bench & Stair Spec.) | Pod: Cut Bench / Stairs | Cost Code: 06-120 Stairs/Cut",
+          "cost_code_label": "06-120 Stairs/Cut",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500101/timecard_entries",
+      "job_id": "JOB-101",
+      "emp_id": "E-09",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 9.5,
+          "billable": true,
+          "description": "Brett Zimmermann (SkyTrak / Rigging Op.) | Pod: Material / SkyTrak | Cost Code: 01-500 Staging",
+          "cost_code_label": "01-500 Staging",
+          "timecard_type": "Overtime"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500101/timecard_entries",
+      "job_id": "JOB-101",
+      "emp_id": "E-10",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 8.5,
+          "billable": true,
+          "description": "Cole Sorensen (2nd-Yr Apprentice) | Pod: Pod A (2-Man Walls) | Cost Code: 06-110 Walls",
+          "cost_code_label": "06-110 Walls",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500101/timecard_entries",
+      "job_id": "JOB-101",
+      "emp_id": "E-11",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 8.0,
+          "billable": true,
+          "description": "Ethan Miller (1st-Yr Apprentice) | Pod: Cut Bench / Stairs | Cost Code: 06-120 Stairs/Cut",
+          "cost_code_label": "06-120 Stairs/Cut",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500101/timecard_entries",
+      "job_id": "JOB-101",
+      "emp_id": "E-12",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 8.5,
+          "billable": true,
+          "description": "Jordan Perez (Yard & Material Runner) | Pod: Material / SkyTrak | Cost Code: 01-500 Staging",
+          "cost_code_label": "01-500 Staging",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500102/timecard_entries",
+      "job_id": "JOB-102",
+      "emp_id": "E-13",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 9.5,
+          "billable": true,
+          "description": "Marcus Jenkins (Journeyman Carpenter) | Pod: Window Set Crew | Cost Code: 08-500 Windows",
+          "cost_code_label": "08-500 Windows",
+          "timecard_type": "Overtime"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500102/timecard_entries",
+      "job_id": "JOB-102",
+      "emp_id": "E-14",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 9.0,
+          "billable": true,
+          "description": "Kyle Peterson (Journeyman Carpenter) | Pod: Window Set Crew | Cost Code: 08-500 Windows",
+          "cost_code_label": "08-500 Windows",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500102/timecard_entries",
+      "job_id": "JOB-102",
+      "emp_id": "E-15",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 8.5,
+          "billable": true,
+          "description": "Samir Patel (Caulk & Envelope Tech) | Pod: Caulk / Drywall-Ready | Cost Code: 08-510 Envelope",
+          "cost_code_label": "08-510 Envelope",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500102/timecard_entries",
+      "job_id": "JOB-102",
+      "emp_id": "E-16",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 8.5,
+          "billable": true,
+          "description": "Devon Brooks (Warehouse / Forklift Op.) | Pod: 2,000 SF Warehouse | Cost Code: 01-500 Staging",
+          "cost_code_label": "01-500 Staging",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500102/timecard_entries",
+      "job_id": "JOB-102",
+      "emp_id": "E-17",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 8.5,
+          "billable": true,
+          "description": "Lucas Meyer (Apprentice Carpenter) | Pod: Caulk / Drywall-Ready | Cost Code: 08-510 Envelope",
+          "cost_code_label": "08-510 Envelope",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500103/timecard_entries",
+      "job_id": "JOB-103",
+      "emp_id": "E-19",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 8.5,
+          "billable": true,
+          "description": "Derek Halvorsen (Lead Carpenter) | Pod: Lake DuBay Lead | Cost Code: 06-110 Walls",
+          "cost_code_label": "06-110 Walls",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500103/timecard_entries",
+      "job_id": "JOB-103",
+      "emp_id": "E-20",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 8.5,
+          "billable": true,
+          "description": "Austin Bauer (Journeyman Framer) | Pod: Lake DuBay Framing | Cost Code: 06-110 Walls",
+          "cost_code_label": "06-110 Walls",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500103/timecard_entries",
+      "job_id": "JOB-103",
+      "emp_id": "E-21",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 8.5,
+          "billable": true,
+          "description": "Caleb Larson (Apprentice Framer) | Pod: Lake DuBay Framing | Cost Code: 06-110 Walls",
+          "cost_code_label": "06-110 Walls",
+          "timecard_type": "Regular Time"
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500103/timecard_entries",
+      "job_id": "JOB-103",
+      "emp_id": "E-22",
+      "payload": {
+        "timecard_entry": {
+          "date": "2026-11-26",
+          "hours": 8.5,
+          "billable": true,
+          "description": "Owen Lindstrom (Material Runner / Driver) | Pod: Multi-Site Supply | Cost Code: 01-500 Staging",
+          "cost_code_label": "01-500 Staging",
+          "timecard_type": "Regular Time"
+        }
+      }
+    }
+  ],
+  "delay_logs": [
+    {
+      "endpoint": "POST /rest/v1.0/projects/500102/delay_logs",
+      "job_id": "JOB-102",
+      "task_id": "T-203",
+      "payload": {
+        "delay_log": {
+          "date": "2026-11-26",
+          "delay_type": "Logistics Watch",
+          "comments": "[T-203] Room A -> Room B Weekly Pallet Pull (Floors 8-9) \u2014 Row A-R1 full (8/8 pallets deep); pull 6 pallets through Room A-B transfer opening.",
+          "start_time_hour": 7,
+          "start_time_minute": 0
+        }
+      }
+    },
+    {
+      "endpoint": "POST /rest/v1.0/projects/500103/delay_logs",
+      "job_id": "JOB-103",
+      "task_id": "T-301",
+      "payload": {
+        "delay_log": {
+          "date": "2026-11-26",
+          "delay_type": "Material Delivery",
+          "comments": "[T-301] Lake DuBay Ridge Beam Set & Timber Porch Roof \u2014 BLOCKED: 3-ply LVL ridge beam delayed at lumber yard (ETA Fri 07:30 AM). Crew re-tasked to interior partitions.",
+          "start_time_hour": 7,
+          "start_time_minute": 0
+        }
+      }
+    }
+  ]
+}
